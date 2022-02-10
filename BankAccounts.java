@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Account{
     String accountHolder;
     int balance;
@@ -32,3 +33,5 @@ public class BankAccounts{
     }
     
 }
+=======
+>>>>>>> parent of 97619be (second Commit)
