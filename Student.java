@@ -1,18 +1,18 @@
-public class Student {
+public class student {
     private int rollNo;
     private String name;
-    Student(){
+    student(){
         rollNo=-1;
         name="New Student";
     }
-    Student(int rollNo,String name){
+    student(int rollNo,String name){
         this.rollNo = rollNo;
         this.name = name;
     }
-    Student(int rollNo){
+    student(int rollNo){
         this.rollNo = rollNo;
     }
-    Student(String name){
+    student(String name){
         this.name = name;
     }
     public int getRollNo(){
@@ -31,13 +31,13 @@ public class Student {
         System.out.println("Name :"+name+" "+"rollNo :"+rollNo);
     }
     public static void main(String[] args) {
-        Student ram=new Student();
+        student ram=new student();
         ram.setName("Ram");
         ram.setRollNo(10);
         ram.display();
-        Student ntr=new Student(1,"NTR");
+        student ntr=new student(1,"NTR");
         ntr.display();
-        Student raju=new Student(2);
+        student raju=new student(2);
         raju.setName("Raju");
         raju.display();
     }
