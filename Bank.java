@@ -128,7 +128,7 @@ class Main{
         };
         salaryAcc.getYearlyTax();
         salaryAcc.getInhandYearlySalary();
-       /* Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the value of N: ");
         int n=scanner.nextInt();
         Bank[] bank=new Bank[n];
@@ -172,10 +172,10 @@ class Main{
             System.out.print("AvgDailyTransaction:");
             int avgDailyTransaction=scanner.nextInt();
             currentaccount[i]=new CurrentAccount(avgDailyTransaction,accNo,accName,accbalance);
-        }*/
+        }
         System.out.println(Bank.copy(new CurrentAccount(1298,1232,"1122",12233)));
         System.out.println(Bank.copy(new SavingAccount(10,1232,"1122",12233)));
-        //scanner.close();
+        scanner.close();
 
     }
 }
