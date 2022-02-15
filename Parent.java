@@ -48,6 +48,8 @@ class Child extends Parent {
         System.out.println("CHILD OBJECT::");
         return String.format("Firstname: %s %nLastname: %s", this.firstname, this.lastname);
     }*/
+    void method(){
+    }
 }
  class MethodOveride{
     public static void main(String[] args) {
@@ -55,6 +57,12 @@ class Child extends Parent {
         System.out.println(parent.toString());
         Child child=new Child("karuna");
         System.out.println(child.toString());
+        Child obj=new Child(){
+            void method(){
+                System.out.println("ajajaj");
+            }
+        };
+        obj.method();
 
     }
 }
